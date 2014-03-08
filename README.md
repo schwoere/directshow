@@ -2,15 +2,16 @@ directshow
 ==========
 This is the directshow Ubitrack submodule.
 
+Description
+----------
+The directshow contains MS Windows specific directshow framegrabber.
+
 Usage
 -----
 In order to use it, you have to clone the buildenvironment, change to the ubitrack directory and add the directshow by executing:
 
     git submodule add https://github.com/schwoere/directshow.git modules/directshow
 
-Description
-----------
-The directshow contains MS Windows specific directshow framegrabber.
 
 Dependencies
 ----------
