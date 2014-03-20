@@ -10,7 +10,7 @@ Usage
 -----
 In order to use it, you have to clone the buildenvironment, change to the ubitrack directory and add the directshow by executing:
 
-    git submodule add https://github.com/schwoere/directshow.git modules/directshow
+    git submodule add https://github.com/Ubitrack/directshow.git modules/directshow
 
 
 Dependencies
@@ -18,11 +18,12 @@ Dependencies
 In addition, this module has to following submodule dependencies which have to be added for successful building:
 
 <table>
-
   <tr>
-    <th>Dependency</th><th>Dependent Components</th><th>optional Dependency</th>
+    <th>Component</th><th>Dependency</th>
   </tr>
   <tr>
-    <td>utdataflow, utvision</td><td>directshow</td><td>no</td>
+    <td>all</td><td>utVision</td>
   </tr>
 </table>
+
+Since this component is MS Windows specific, the DirectShowFrameGrabber can only be built on MS Windows.
