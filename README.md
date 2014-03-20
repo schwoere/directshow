@@ -26,4 +26,4 @@ In addition, this module has to following submodule dependencies which have to b
   </tr>
 </table>
 
-Since this component is MS Windows specific, the DirectShowFrameGrabber can only be built on MS Windows.
+Since this component is MS Windows specific, the directshow can only be built on MS Windows.
